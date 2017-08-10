@@ -10,9 +10,7 @@
     "start": "sanity start",
     "test": "sanity check"
   },
-  "keywords": [
-    "sanity"
-  ],
+  "keywords": ["sanity", "pluign", "slider", "component"],
   "dependencies": {
     "@sanity/base": "^0.107.29",
     "@sanity/components": "^0.107.29",

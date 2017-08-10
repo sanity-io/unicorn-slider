@@ -1,10 +1,12 @@
-# unicornslidertest
+# Unicorn Slider Test Studio
 
-Test Studio for trying out the Unicorn Slider plugin
+Test Studio for testing the Unicorn Slider plugin
+
+https://sanity.io
 
 ## Running
 
 ```
 npm install
-npm start
+sanity start
 ```
