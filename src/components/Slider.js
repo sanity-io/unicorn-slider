@@ -12,7 +12,7 @@ export default class Slider extends React.Component {
     level: PropTypes.number,
     value: PropTypes.number,
     onChange: PropTypes.func.isRequired
-  };
+  }
 
   handleChange = event => {
     const inputValue = event.target.value
@@ -22,24 +22,27 @@ export default class Slider extends React.Component {
 
   render() {
     const {type, value, level} = this.props
+    const title = `${type.title}: ${value}`
     const {min, max, step} = type.options.range
     return (
-      <FormField label={type.title} level={level} description={type.description}>
-        <input
-          type="range"
-          className={styles.slider}
-          min={min}
-          max={max}
-          step={step}
-          value={value === undefined ? '' : value}
-          onChange={this.handleChange}
-        />
-      </FormField>
+      <div>
+        <FormField label={title} level={level} description={type.description}>
+          <input
+            type="range"
+            className={styles.slider}
+            min={min}
+            max={max}
+            step={step}
+            value={value === undefined ? '' : value}
+            onChange={this.handleChange}
+          />
+        </FormField>
+      </div>
     )
   }
 }
 
 Slider.defaultProps = {
   level: 1,
-  value: null
+  value: 0
 }
