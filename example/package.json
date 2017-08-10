@@ -1,0 +1,29 @@
+{
+  "name": "unicornslidertest",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Test Studio for trying out the Unicorn Slider plugin",
+  "main": "package.json",
+  "author": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^0.107.29",
+    "@sanity/components": "^0.107.29",
+    "@sanity/core": "^0.107.29",
+    "@sanity/date-input": "^0.107.29",
+    "@sanity/default-layout": "^0.107.29",
+    "@sanity/default-login": "^0.107.29",
+    "@sanity/desk-tool": "^0.107.29",
+    "@sanity/google-maps-input": "^0.107.29",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {}
+}
