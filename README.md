@@ -27,7 +27,7 @@ touch parts/inputResolver.js
 Add this to `parts/inputResolver.js`:
 
 ```
-import Slider from './Slider'
+import Slider from 'part:@sanity/base/components/unicorn-slider'
 export default function resolveInput(type) {
   if (type.name === 'number' && type.options && type.options.range) {
     return Slider
@@ -40,7 +40,7 @@ Add this to the `parts` array in your `sanity.json` file:
 ```
 {
   "implements": "part:@sanity/form-builder/input-resolver",
-  "path": "./inputResolver.js"
+  "path": "./parts/inputResolver.js"
 }
 ```
 
