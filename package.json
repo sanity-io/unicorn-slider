@@ -1,11 +1,16 @@
 {
   "name": "sanity-plugin-unicorn-slider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Slider input for Sanity",
   "author": "hello@bengler.no",
   "homepage": "https://github.com/sanity-io/unicorn-slider#readme",
   "public": true,
-  "keywords": ["sanity", "pluign", "slider", "component"],
+  "keywords": [
+    "sanity",
+    "pluign",
+    "slider",
+    "component"
+  ],
   "main": "lib/index.js",
   "license": "ISC",
   "bugs": {
