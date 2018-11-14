@@ -14,6 +14,10 @@ export default class Slider extends React.Component {
     onChange: PropTypes.func.isRequired
   }
 
+  focus() {
+    this._inputElement.focus()
+  }
+
   handleChange = event => {
     const inputValue = event.target.value
     const patch = inputValue === '' ? unset() : set(Number(inputValue))
@@ -28,6 +32,7 @@ export default class Slider extends React.Component {
       <div>
         <FormField label={title} level={level} description={type.description}>
           <input
+            ref={element => this._inputElement = element}
             type="range"
             className={styles.slider}
             min={min}

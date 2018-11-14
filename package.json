@@ -33,13 +33,14 @@
     "babel-preset-react": "^6.24.1",
     "eslint": "^4.3.0",
     "eslint-config-sanity": "^2.1.4",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.1.0",
+    "react-hot-loader": "^4.3.12"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "16.x"
   },
   "dependencies": {
-    "@sanity/form-builder": "^0.107.29",
-    "prop-types": "^15.5.10"
+    "@sanity/form-builder": "^0.135.4",
+    "prop-types": "^15.6.2"
   }
 }

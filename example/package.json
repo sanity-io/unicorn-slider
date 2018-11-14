@@ -10,18 +10,22 @@
     "start": "sanity start",
     "test": "sanity check"
   },
-  "keywords": ["sanity", "pluign", "slider", "component"],
+  "keywords": [
+    "sanity",
+    "pluign",
+    "slider",
+    "component"
+  ],
   "dependencies": {
-    "@sanity/base": "^0.107.29",
-    "@sanity/components": "^0.107.29",
-    "@sanity/core": "^0.107.29",
-    "@sanity/date-input": "^0.107.29",
-    "@sanity/default-layout": "^0.107.29",
-    "@sanity/default-login": "^0.107.29",
-    "@sanity/desk-tool": "^0.107.29",
-    "@sanity/google-maps-input": "^0.107.29",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
-  },
-  "devDependencies": {}
+    "@sanity/base": "^0.135.4",
+    "@sanity/components": "^0.135.4",
+    "@sanity/core": "^0.135.3",
+    "@sanity/default-layout": "^0.135.4",
+    "@sanity/default-login": "^0.135.0",
+    "@sanity/desk-tool": "^0.135.4",
+    "@sanity/google-maps-input": "^0.135.4",
+    "@sanity/rich-date-input": "^0.135.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
 }

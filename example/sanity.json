@@ -13,7 +13,7 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "@sanity/date-input",
+    "@sanity/rich-date-input",
     "@sanity/google-maps-input"
   ],
   "parts": [
